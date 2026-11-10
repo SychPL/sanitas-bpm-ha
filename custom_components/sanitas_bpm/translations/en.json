@@ -1,0 +1,21 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Sanitas SBM 67",
+        "data": {
+          "address": "Bluetooth address of the monitor",
+          "threshold": "Systolic threshold (mmHg): at or above goes to the first person",
+          "high_name": "Person with high blood pressure",
+          "low_name": "Person with low blood pressure"
+        }
+      }
+    },
+    "error": {
+      "invalid_address": "Expected an address like AA:BB:CC:DD:EE:FF"
+    },
+    "abort": {
+      "already_configured": "This monitor is already configured"
+    }
+  }
+}

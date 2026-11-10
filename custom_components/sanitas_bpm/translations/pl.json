@@ -1,0 +1,21 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Sanitas SBM 67",
+        "data": {
+          "address": "Adres Bluetooth ciśnieniomierza",
+          "threshold": "Próg skurczowego (mmHg): od tej wartości pomiar trafia do pierwszej osoby",
+          "high_name": "Osoba z wysokim ciśnieniem",
+          "low_name": "Osoba z niskim ciśnieniem"
+        }
+      }
+    },
+    "error": {
+      "invalid_address": "Oczekiwany adres w postaci AA:BB:CC:DD:EE:FF"
+    },
+    "abort": {
+      "already_configured": "Ten ciśnieniomierz jest już skonfigurowany"
+    }
+  }
+}
